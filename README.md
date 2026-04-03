@@ -31,3 +31,13 @@ In this project, I built a Mini Piano by following Mukul Saini's tutorials to pr
 * **Error Management:** Wrapping sensitive operations in try-catch blocks.
 
 * **GUI Customization:** bypassing IDE limitations by using getContentPane().setBackground() to ensure the background displays as pink.
+
+## Basic Interest Calculator 
+
+This project is a financial tool that calculates interest based on user-provided principal, rate, and time. It focuses on clean GUI logic by followong Mukul Saini's tutorials and especially I specialized this project with robust error handling.
+
+### WHAT I learned in this project ?
+
+* **Dynamic Formulas:** Implemented both Simple Interest ($I = P \times r \times t / 100$) and Compound Interest ($A = P(1 + r/n)^{nt}$) logic.
+* **Robust Error Handling:** Used try-catch blocks specifically to handle NumberFormatException. This prevents the application from crashing if a user enters letters or symbols instead of numeric values.
+* **User Feedback:** Integrated JOptionPane to provide real-time alerts for empty fields or invalid inputs.
